@@ -1,0 +1,102 @@
+.header {
+    background-color: #F1F1F1;
+    padding: 5px;
+       position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+  }
+  
+     .menu{    
+      margin-top: 5%;
+  }
+  
+  ul {
+    background-color: #0077ff;
+    opacity:0.6;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+      position: sticky;
+      top: 0;
+    
+  }
+  
+  li {
+    float: left;
+    border-right:1px solid #bbb;
+  }
+  
+  li:last-child {
+    border-right: none;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+   opacity: 0.3;
+  }
+  
+  body {
+    background-color: lightblue;
+  }
+  
+  fieldset{
+    background-color:#F1F1F1;
+    width: 40%;
+    margin-left: 30%;
+     border-radius: 10px;
+  
+  }
+  
+  input[type=text],input[type=password],input[type=number],select,input[type=date]{
+    width: 100%;
+    padding: 8px 10px;
+    margin: 3px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    align: center;
+    border-radius: 10px;
+  }
+  
+  button {
+    background-color: #26ff00;
+    color: white;
+   padding: 8px 10px;
+    margin: 3px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+     border-radius: 10px;
+      opacity: 0.6;
+  }
+  
+  
+  #modify {
+    background-color:#26ff00;
+    opacity:0.6;
+    color: white;
+   padding: 8px 10px;
+    margin: 3px 0;
+    border: none;
+    cursor: pointer;
+    width: 40%;
+    margin-left: 30.7%;
+     border-radius: 10px;
+     opacity:0.6;
+      
+  }
+  
+  #modify:hover {
+    opacity:0.3;
+  }
+  

@@ -1,0 +1,94 @@
+
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  align: center;
+  border-radius: 10px;
+}
+body {
+  background-image: url("user.jpg");
+  background-size: 1500px 1700px ;
+  background-repeat: no-repeat;
+}
+
+button {
+  background-color: #0000FF;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+   border-radius: 10px;
+   opacity: 0.6;
+   
+}
+
+
+.container {
+  padding: 16px;
+}
+button:hover {
+  opacity: 0.3;
+}
+
+
+.container{
+  border-radius: 10px;
+  width: 40%;
+  margin-left: 30%;
+  margin-top:8% ;
+
+
+}
+#ca {
+ background-color: #0000FF;
+  color: white;
+  padding: 14px 20px;
+  margin: 10px;
+  border: none;
+  cursor: pointer;
+  width: 120px;
+  margin-top: 16px;
+   border-radius: 10px;
+    opacity: 0.6;
+
+
+}
+#ca:hover {
+
+    opacity: 0.3;
+}
+#fp {
+  background-color: #0000FF;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 20%;
+   border-radius: 10px;
+    opacity: 0.6;
+}
+
+a{
+ float: right;
+}
+
+body {
+  background-color: lightblue;
+}
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 2.5rem; 
+}
